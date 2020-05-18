@@ -1,38 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from themecrazy.net/html/sigma/index-static.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 16 May 2020 15:10:47 GMT -->
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Binder | Construcción y Servicios</title>
-	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
-    <!-- Animate CSS -->
-	<link href="css/animate.css" rel="stylesheet">
-	<!-- Magnific popup CSS -->
-	<link href="css/magnific-popup.css" rel="stylesheet">
-	<!-- Owl carousel CSS -->
-	<link href="css/owl.carousel.min.css" rel="stylesheet">
-	<!-- Font-awesome -->
-	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
-	<!-- Google font-->
-	<link href="https://fonts.googleapis.com/css?family=Raleway:200,300,300i,400,500,600,700,800,900" rel="stylesheet">
-	<!-- Main CSS -->
-	<link href="css/styleNew.css" rel="stylesheet">
-  <link href="style.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+  <!-- HEAD -->
+    <?php include 'head.php' ;?>
 
 </head>
 
@@ -44,49 +15,19 @@
 	<!-- end topbar -->
 
     <!-- Navigation -->
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#"><img class="img-fluid" src="img/logo.png"/></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
+      <?php include 'menu.php' ;?>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto menuLinks">
-            <li class="nav-item active">
-              <a class="nav-link" href="index">INICIO</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              EMPRESA
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="nosotros">Nosotros</a>
-                <a class="dropdown-item" href="mision-y-vision">Misión y Visión</a>
-                <a class="dropdown-item" href="valores">Valores</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="clientes">CLIENTES</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+      <div class="">
+        <div class="jumbotron" style="background-image:url(media/valores.jpg); background-size: cover; background-position: center;">
+      <div class="introImagePage">
+      </div>
     </div>
-	<!-- end nav -->
+  </div>
 
-  <div class="mt-5 mb-5">
-    <div class="container">
-      <div class="row">
-        <div class="container-fluid">
-          <div class="col-12 " style="background-image:url(media/valores.jpg); background-size: cover; background-position: center;">
-            <div class="introImagePage">
-              <h1 class="text-white text-center">VALORES</h1>
-            </div>
-          </div>
-        </div>
-        <div class="">
-          <div class="col-11 col-md-8 text-justify mt-5">
+  <div class="container mb-5">
+    <div class=" d-flex justify-content-center">
+      <div class="col-11 col-md-8 text-justify mt-5">
+            <h1 class="">VALORES</h1>
             <p class="lead pt-3 text-justify">
               Profesionalismo: nos destacamos por tener la capacidad de interpretar las ideas, optimizar recursos y materializar los proyectos de nuestros clientes. Trabajando en conjunto desde el inicio del proceso, bajo la supervisión personal y profesional, desde la entrevista inicial, la visita a obra, la planificación, construcción y finalización del trabajo.
             </p>
