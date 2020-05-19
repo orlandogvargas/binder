@@ -3,7 +3,10 @@
 
   <head>
     <!-- HEAD -->
-      <?php include 'head.php' ;?>
+    <?php
+      $page = 'index';
+      include 'head.php';
+    ?>
 
   </head>
 
@@ -29,9 +32,9 @@
     						<div class="col-sm-12">
     							<div class="caption-info-inner">
     								<h1 class="animated fadeInDown display-5">
-                      Empresa argentina dedicada a <br>
-                      la construcción, arquitectura, ingeniería,<br>
-                      servicios y obras de termomecánica
+                       Empresa argentina dedicada a <br>
+                       la construcción y servicios<br>
+                       con más de 15 años de experiencia.
                     </h1>
     							</div>
     						</div>
@@ -64,7 +67,7 @@
       						<li>
       							<div class="service-list">
       								<div class="service-thumb">
-      									<a href="proyectos">
+      									<a href="portfolio">
       										<img src="media/home/proyectosHome.jpg" alt="">
       										<div class="service-overlay">
       											<h3>Proyectos</h3>

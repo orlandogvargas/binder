@@ -20,9 +20,9 @@
 	<!-- end nav -->
 
   <div class="">
-    <div class="jumbotron" style="background-image:url(media/nosotrosBinder.jpg); background-size: cover;">
-      <div class="introImagePage">
-        <h1 class="text-white text-center">&nbsp;</h1>
+    <div class="" style="background-image:url(media/nosotrosBinder.jpg); background-size: cover; background-position: top;">
+      <div class="introImagePage semTransparent">
+        <h2 class="text-white text-center">TERMOMECANICA</h2>
       </div>
     </div>
   </div>
@@ -30,38 +30,35 @@
   <div class="container mb-5">
     <div class=" d-flex justify-content-center">
       <div class="col-11 col-md-8 mt-5">
-            <h1 class="">Termomecánica</h1>
             <p class="lead pt-3">
-              La termomecanica es una rama muy importante dentro de la construcción , ya que refiere a climatizacion de ámbitos laborales y de tal manera se brinda confort de trabajo para los integrantes de los sectores afectados a la misma .
-            <br>
-            Contamos con personal altamente capacitado para realizar todo tipo de trabajos vinculados a la misma ,cómo ser :
+              Dado que los proyectos edilicios pueden ser implantados en cualquier sitio o clima es necesario mantener en su interior condiciones de confort térmico a fin de hacerlo habitable, para eso intervienen las Instalaciones Termomecánicas - IT.
+            <br><br>
+            Estas IT pertenecen a los sistemas tecnológicos inherentes al proyecto edilicio, para llevar a cabo la implementación de estos sistemas contamos con un área especializada cuyo  personal está altamente calificado y capacitado para la realización de la tarea.
 
+
+              <h4 class="pt-3">Ámbitos de interacción</h4>
               <ul>
-                <li>Reparación de ductos de inyección y extracción </li>
-                <li>Ampliación y / o reducción de sistemas existentes </li>
-                <li>Calculo de sistemas de climatizacion </li>
-                <li>Provisión de equipos centrales </li>
-                <li>Calculo de equipos con alimentación por agua</li>
-                <li>Proyecto </li>
-                <li>Planos de sistemas </li>
-                <li>Conductos a la vista y ocultos </li>
-                <li>Equipos VRV</li>
-                <li>Evaluación y diagnóstico de sistemas</li>
-                <li>Dirección y ejecución  desde su proyecto  hasta entrega llave en mano</li>
+                <li>Empresas.</li>
+                <li>Cámaras frigoríficas.</li>
+                <li>Oficinas.</li>
+                <li>Bancos.</li>
+                <li>Sanatorio médicos.</li>
+                <li>Supermercados.</li>
+                <li>Centro de compras.</li>
               </ul>
 
-              <h3 class="mt-5">Ámbitos de interacción :</h3>
-              <ul>
-                <li>Empresas </li>
-                <li>Cámaras frigoríficas </li>
-                <li>Oficinas </li>
-                <li>Bancos </li>
-                <li>Sanatorio médicos </li>
-                <li>Supermercados </li>
-                <li>Centro de compras </li>
-              </ul>
-
-              <p class="lead pt-3">Brindando de esta manera un servicio integral completo para poder satisfacer la necesidad de nuestros clientes</p>
+                <h4 class="pt-5">Nuestros servicios</h4>
+                <ul>
+                  <li>Cálculo de sistemas de climatización.</li>
+                  <li>Provisión de equipos centrales.</li>
+                  <li>Cálculo de equipos con alimentación por agua.</li>
+                  <li>Proyecto.</li>
+                  <li>Planos de sistemas.</li>
+                  <li>Conductos a la vista y ocultos.</li>
+                  <li>Equipos VRV.</li>
+                  <li>Evaluación y diagnóstico de sistemas.</li>
+                  <li>Dirección y ejecución  desde su proyecto  hasta entrega llave en mano.</li>
+                </ul>
 
               </p>
 

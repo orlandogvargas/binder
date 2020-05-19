@@ -1,6 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <!-- HEAD -->
+      <?php include 'head.php' ;?>
+
+  </head>
+
+  <body>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css">
   <!-- Navigation -->
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
         <div class="container">
           <a class="navbar-brand" href="#">
             <a class="navbar-brand" href="index"><img class="img-fluid logoNew" src="media/identidad/logo.png"/></a>
@@ -10,8 +20,9 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link <?php if($page=='index'){echo 'active';}?>" href="index">INICIO</a>
+              <li class="nav-item active">
+                <a class="nav-link" href="index">INICIO</a>
+                <span class="sr-only">(current)</span>
               </li>
 
               <li class="nav-item dropdown">
@@ -30,22 +41,30 @@
                 SERVICIOS
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item"  href="asesoramiento-y-proyectos">Asesoramiento y Proyectos</a>
+                  <a class="dropdown-item" href="asesoramiento-y-proyectos">Asesoramiento y Proyectos</a>
                   <a class="dropdown-item" href="ambito-industrial">Ámbito industrial</a>
                   <a class="dropdown-item" href="ambito-residencial">Ámbito residencial</a>
                   <a class="dropdown-item" href="termomecanica">Termomécanica</a>
                 </div>
               </li>
 
-              <li class="nav-item <?php if($page=='portfolio'){echo 'active';}?>">
-                <a class="nav-link" href="portfolio">PORTFOLIO</a>
+              <li class="nav-item">
+                <a  class="nav-link" href="portfolio">PORTFOLIO</a>
               </li>
-              <li class="nav-item <?php if($page=='clientes'){echo 'active';}?>">
+
+
+
+              <li class="nav-item">
                 <a class="nav-link" href="clientes">CLIENTES</a>
               </li>
-              <li class="nav-item <?php if($page=='contacto'){echo 'active';}?>">
+
+
+              <li class="nav-item">
                 <a class="nav-link" href="contacto">CONTACTO</a>
               </li>
+
+
+
             </ul>
           </div>
         </div>
@@ -53,3 +72,10 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/js/bootstrap.js"></script>
+    <!-- end services -->
+
+    <!-- footer & scripts -->
+      <?php include 'footer.php' ;?>
+
+</body>
+</html>

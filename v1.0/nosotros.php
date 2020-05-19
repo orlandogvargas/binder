@@ -4,7 +4,9 @@
 <!-- Mirrored from themecrazy.net/html/sigma/index-static.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 16 May 2020 15:10:47 GMT -->
 <head>
   <!-- HEAD -->
-    <?php include 'head.php' ;?>
+  <?php
+    include 'head.php';
+  ?>>
 
 </head>
 
@@ -20,17 +22,17 @@
 	<!-- end nav -->
 
   <div class="">
-    <div class="jumbotron" style="background-image:url(media/nosotrosBinder.jpg); background-size: cover;">
-      <div class="introImagePage">
-        <h1 class="text-white text-center">&nbsp;</h1>
+    <div class="" style="background-image:url(media/nosotrosBinder.jpg); background-size: cover; background-position: center;">
+      <div class="introImagePage semTransparent">
+        <h2 class="text-white text-center">NOSOTROS</h2>
       </div>
     </div>
   </div>
 
   <div class="container mb-5">
     <div class=" d-flex justify-content-center">
-      <div class="col-11 col-md-8 text-justify mt-5">
-            <h1 class="">Nosotros</h1>
+      <div class="col-11 col-md-8 text-justify mt-5 ">
+            <h1 class=""></h1>
             <p class="lead pt-3">
               Binder es una empresa argentina dedicada a la construcción, arquitectura, ingeniería, servicios y obras de termomecánica que desarrolla sus actividades a partir del año 2003. Desde nuestros inicios hemos experimentado un crecimiento sostenido consolidando una organización en constante expansión.
             </p>

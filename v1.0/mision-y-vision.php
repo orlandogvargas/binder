@@ -17,10 +17,11 @@
     <?php include 'menu.php' ;?>
 	<!-- end nav -->
 
+
   <div class="">
-    <div class="jumbotron" style="background-image:url(media/misionVision.jpg); background-size: cover;">
-      <div class="introImagePage">
-        <h1 class="text-white text-center">&nbsp;</h1>
+    <div class="" style="background-image:url(media/misionVision.jpg); background-size: cover;">
+      <div class="introImagePage semTransparent">
+        <h2 class="text-white text-center">MISION Y VISION</h2>
       </div>
     </div>
   </div>
